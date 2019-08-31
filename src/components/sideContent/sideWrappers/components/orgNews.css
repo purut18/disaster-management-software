@@ -1,0 +1,58 @@
+.StaffNewsComp {
+    width: 60%;
+    box-sizing: border-box;
+    border: 1px solid rgb(170, 136, 136);
+    padding: 0 16px;
+    padding-bottom: 16px;
+    border-top: 2px solid #236A98;
+    background: white;
+    border-radius: 6px;
+    margin-top: 50px;
+}
+
+.width100pct {
+    width: 100% !important;
+    margin-top: 0px;
+}
+
+.StaffNewsComp h3 {
+    font-size: 21px;
+    font-weight: normal;
+    margin: 10px 0 10px 10px;
+}
+
+.infoList {
+    border-top: 1px solid #E0F2E9;
+    box-sizing: border-box;
+    width: 100%;
+    padding:0;
+    margin:0;
+}
+
+.infoList table {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.infoList table tbody tr {
+    height: 60px;
+    text-align: center;
+}
+
+.infoList table tbody tr th {
+    border-bottom: 2px solid #E0F2E9;
+}
+
+.infoList table tbody tr td {
+    border-bottom: 1.5px solid #E0F2E9;
+    padding: 15px;
+}
+
+.infoList table tbody tr td:first-of-type {
+    text-align: left;
+}
+
+.errorMsg {
+    color: red !important;
+}

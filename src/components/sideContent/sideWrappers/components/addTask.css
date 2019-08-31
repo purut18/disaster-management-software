@@ -1,0 +1,51 @@
+.addTaskComp {
+    width: 40%;
+    box-sizing: border-box;
+    border: 1px solid rgb(170, 136, 136);
+    padding: 0 16px;
+    padding-bottom: 16px;
+    border-top: 2px solid #236A98;
+    background: white;
+    border-radius: 6px;
+    margin-top: 50px;
+}
+
+.addTaskComp h3 {
+    font-size: 21px;
+    font-weight: normal;
+    margin: 10px 0 10px 10px;
+}
+
+
+.addTaskComp form {
+    display: block;
+    border-top: 1px solid #E0F2E9;
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.addTaskComp form input, .addTaskComp form select {
+    width: 100%;
+    box-sizing: border-box;
+    height: 35px;
+    border: 1.5px solid #E0F2E9;
+    margin: 8px 0;
+    padding: 0 8px;
+}
+
+.addTaskComp form input[type="submit"] {
+    background: #236A98;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.addTaskComp form input[type="submit"]:hover {
+    transform: scale(1.01);
+}
+
+.addTaskComp form .errorMsg {
+    color: red !important;
+}

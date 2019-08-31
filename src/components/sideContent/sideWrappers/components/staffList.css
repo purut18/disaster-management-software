@@ -1,0 +1,133 @@
+.staffComp {
+    width: 60%;
+    box-sizing: border-box;
+    border: 1px solid rgb(170, 136, 136);
+    padding: 0 16px;
+    padding-bottom: 16px;
+    border-top: 2px solid #236A98;
+    background: white;
+    border-radius: 6px;
+    margin-top: 50px;
+}
+
+.staffComp h3 {
+    font-size: 21px;
+    font-weight: normal;
+    margin: 10px 0 10px 10px;
+}
+
+.staffsList, .msgList {
+    border-top: 1px solid #E0F2E9;
+    box-sizing: border-box;
+    width: 100%;
+    padding:0;
+    margin:0;
+}
+
+.staffsList table, .msgList table {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.staffsList table tbody tr, .msgList table tbody tr {
+    height: 20px;
+    text-align: center;
+}
+
+.staffsList table tbody tr th, .msgList table tbody tr th {
+    border-bottom: 2px solid #E0F2E9;
+    padding: 15px 0;
+}
+
+.staffsList table tbody tr td, .msgList table tbody tr td {
+    border-bottom: 1.5px solid #E0F2E9;
+    padding: 9px 15px;
+}
+
+.addStaffComp {
+    width: 30%;
+    box-sizing: border-box;
+    border: 1px solid rgb(170, 136, 136);
+    padding: 0 16px;
+    padding-bottom: 16px;
+    border-top: 2px solid #236A98;
+    background: white;
+    border-radius: 6px;
+    margin-top: 50px;
+}
+
+.addStaffComp h3 {
+    font-size: 21px;
+    font-weight: normal;
+    margin: 10px 0 10px 10px;
+}
+
+.addStaffComp form, .sendMsg form {
+    display: block;
+    border-top: 1px solid #E0F2E9;
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.addStaffComp form input, .sendMsg form input, .sendMsg form select {
+    width: 100%;
+    box-sizing: border-box;
+    height: 35px;
+    border: 1.5px solid #E0F2E9;
+    margin: 8px 0;
+    padding: 0 8px;
+}
+
+.addStaffComp form input[type="submit"], .sendMsg form input[type="submit"] {
+    background: #236A98;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.addStaffComp form input[type="submit"]:hover, .sendMsg form input[type="submit"]:hover {
+    transform: scale(1.01);
+}
+
+.broadcastComp form .errorMsg, .sendMsg form .errorMsg {
+    color: red !important;
+}
+
+
+.staffMsg {
+    width: 60%;
+    box-sizing: border-box;
+    border: 1px solid rgb(170, 136, 136);
+    padding: 0 16px;
+    padding-bottom: 16px;
+    border-top: 2px solid #236A98;
+    background: white;
+    border-radius: 6px;
+}
+
+.staffMsg h3 {
+    font-size: 21px;
+    font-weight: normal;
+    margin: 10px 0 10px 10px;
+}
+
+
+.sendMsg {
+    width: 30%;
+    box-sizing: border-box;
+    border: 1px solid rgb(170, 136, 136);
+    padding: 0 16px;
+    padding-bottom: 16px;
+    border-top: 2px solid #236A98;
+    background: white;
+    border-radius: 6px;
+}
+
+.sendMsg h3 {
+    font-size: 21px;
+    font-weight: normal;
+    margin: 10px 0 10px 10px;
+}

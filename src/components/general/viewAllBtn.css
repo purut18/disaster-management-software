@@ -1,0 +1,17 @@
+.viewAllBtn {
+    float: right;
+    color: white;
+    background: #236A98;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.viewAllBtn a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.viewAllBtn:hover {
+    transform: scale(1.01);
+}

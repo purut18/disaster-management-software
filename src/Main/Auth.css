@@ -1,0 +1,41 @@
+.auth {
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.auth form {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 350px;
+    background: white;
+    border-top: 2px solid #236A98;
+    padding: 0 10px;
+}
+
+.auth form h3 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.auth form input {
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    margin: 4px auto 12px auto;
+    padding-left: 4px;
+}
+
+.auth form input[type="submit"] {
+    background: #236A98;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.auth form input[type="submit"]:hover {
+    transform: scale(1.01);
+}
+

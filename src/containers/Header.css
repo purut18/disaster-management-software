@@ -1,0 +1,110 @@
+header {
+    height: 100vh;
+    background: #154360;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+}    
+
+.smallWidth {
+    width: 60px;
+}
+.bigWidth {
+    width: 210px;
+}
+
+.logos {
+    box-sizing: border-box;
+    font-size: 31px;
+    height: 70px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.logos div {
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.logos div span {
+    vertical-align: middle;
+}
+
+.logos div img {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.menu {
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    height: calc(100vh - 70px);
+    text-align: left;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a li {
+    list-style: none;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    margin-left: 4px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 12px auto;
+    text-align: left;
+}
+
+.menu a li:hover {
+    background: #236A98;
+}
+
+.menu a li i {
+    padding: 10px 12px;
+    font-size: 18px;
+}
+
+ .menu a li:nth-child(3) i {
+    margin-right: 3px;
+}
+.menu a li:nth-child(2) i {
+    margin-right: 5px;
+} 
+
+.smallmenu a li {
+    padding-left: 0;
+    text-align: center;
+}
+
+.smallmenu a li i {
+    margin-right: 0 !important;
+}
+
+.smallmenu a li:hover {
+    background: none;
+    border: none;
+}
+
+.activeNav li {
+    background: #236A98 !important;
+}
+
+.smallmenu a li:hover i {
+    background: #236A98 !important;
+    border-radius: 4px;
+}

@@ -1,0 +1,66 @@
+.stockComp {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(170, 136, 136);
+    padding: 0 16px;
+    padding-bottom: 16px;
+    border-top: 2px solid #236A98;
+    background: white;
+    border-radius: 6px;
+}
+
+.stockComp h3 {
+    font-size: 21px;
+    font-weight: normal;
+    margin: 10px 0 10px 10px;
+}
+
+.stockList {
+    border-top: 1px solid #E0F2E9;
+    box-sizing: border-box;
+    width: 100%;
+    padding:0;
+    margin:0;
+}
+
+.stockList table {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.stockList table tbody tr {
+    height: 60px;
+    text-align: center;
+}
+
+.stockList table tbody tr th {
+    border-bottom: 2px solid #E0F2E9;
+}
+
+.stockList table tbody tr td {
+    border-bottom: 1.5px solid #E0F2E9;
+    padding: 15px;
+}
+
+.stockList table tbody tr td:first-of-type {
+    padding-left: 35px;
+    text-align: left;
+}
+
+.stockList table tbody tr td:nth-of-type(3) {
+    padding-bottom: 27px;
+    text-align: center;
+}
+
+
+.stockList table tbody tr td i {
+    color: #fc0;
+    margin-right: 7px;
+}
+
+.wareList table tbody tr td select {
+    border-radius: 20px;
+    border: 2px solid #E0F2E9;
+    padding: 10px;
+}

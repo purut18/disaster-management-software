@@ -1,0 +1,140 @@
+.taskComp {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(170, 136, 136);
+    padding: 0 16px;
+    padding-bottom: 16px;
+    border-top: 2px solid #236A98;
+    background: white;
+    border-radius: 6px;
+}
+
+.taskComp h3 {
+    font-size: 21px;
+    font-weight: normal;
+    margin: 10px 0 10px 10px;
+}
+
+.taskList {
+    border-top: 1px solid #E0F2E9;
+    box-sizing: border-box;
+    width: 100%;
+    padding:0;
+    margin:0;
+}
+
+.taskList table {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.taskList table tbody tr {
+    height: 60px;
+    text-align: center;
+}
+
+.taskList table tbody tr th {
+    border-bottom: 2px solid #E0F2E9;
+}
+
+.taskList table tbody tr td {
+    border-bottom: 1.5px solid #E0F2E9;
+    padding: 15px;
+}
+
+.taskList table tbody tr td:first-of-type {
+    padding-left: 35px;
+    text-align: left;
+}
+
+.taskList table tbody tr td:nth-of-type(3) {
+    padding-bottom: 27px;
+    text-align: center;
+}
+
+
+.taskList table tbody tr td i {
+    color: #fc0;
+    margin-right: 7px;
+}
+
+.taskList table tbody tr td select {
+    border-radius: 20px;
+    border: 2px solid #E0F2E9;
+    padding: 10px;
+}
+
+.progressBar {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 3px;
+    position: relative;
+}
+
+.progressBar .line1, .progressBar .line2 {
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background: #E0F2E9;
+    z-index: 9999;
+}
+
+.progressBar .line2 {
+    left: 50%;
+}
+
+.progressBar .afterPt, .progressBar .beforePt, .progressBar .middlePt {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #E0F2E9;
+    z-index: 10000;
+    border-radius: 50%;
+    top: -6px;
+}
+
+.progressBar .afterPt::after, .progressBar .beforePt::after, .progressBar .middlePt::after {
+    content: 'Done';
+    font-size: 12px;
+    position: absolute;
+    top: 16px;
+    left: -5px;
+}
+
+.progressBar .beforePt::after {
+    content: 'To-Do';
+    left: -8px;
+    width: 35px;
+}
+
+.progressBar .middlePt::after {
+    content: 'In Process';
+    width: 60px;
+    left: -20px;
+}
+
+.progressBar .afterPt {
+    left: calc(100% - 15px);
+}
+
+.progressBar .middlePt {
+    left: calc(50% - 7.5px);
+}
+
+.bgGreen {
+    background: #4B7F52 !important;
+}
+
+.High {
+    color: red !important;
+}
+
+.Medium {
+    color: orange !important;
+}
+
+.Low {
+    color: #ADFF2F !important;
+}

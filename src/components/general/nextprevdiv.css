@@ -1,0 +1,35 @@
+.nextPrevDiv {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.nextPrevDiv button {
+    box-sizing: border-box;
+    background: #236A98;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.nextPrevDiv button:last-of-type {
+    float: right;
+}
+
+.nextPrevDiv p {
+    display: block;
+    width: 100%; 
+    margin:0 0 2px 0;
+    text-align: center;
+}
+
+.nextPrevDiv button:hover {
+    transform: scale(1.02);
+    border: none;
+}
+
+.errorMsg {
+    color: red !important;
+}
