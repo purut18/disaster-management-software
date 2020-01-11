@@ -7,8 +7,3 @@ THe folders included are:
 2) Public: It contains the index.html and PHP files
 
 3) src: It contains all the React.js files
-
-Software Demo Link: http://www.incury.org/software
-Use these credentials to login:
-Username: admin@incury.org
-Password: 1234
